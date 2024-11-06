@@ -1,4 +1,4 @@
-package main
+package creational
 
 import "fmt"
 
@@ -29,7 +29,7 @@ func (u *UserBuilder) Build() User {
 	return u.user
 }
 
-func main() {
+func builder() {
 	user := NewUserBuilder().
 		SetEmail("myEMail").
 		SetName("myName").

@@ -4,6 +4,7 @@ import (
 	creational "designpattern/Creational"
 	"designpattern/Creational/factory"
 	solid "designpattern/SOLID"
+	structural "designpattern/Structural"
 	"fmt"
 )
 
@@ -12,4 +13,5 @@ func main() {
 	solid.Srp()
 	factory.Factory()
 	creational.BuildCreational()
+	structural.Structural()
 }

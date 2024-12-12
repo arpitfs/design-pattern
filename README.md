@@ -16,4 +16,8 @@ This Repository shows the design patterns and SOLID Principles implement in go
 
 ## SOLID Principles
 
-- [SRP](SOLID/single_resposibility.go)
+- [SingleResponsibilityPrinciple](SOLID/single_resposibility.go)
+- [OpenClosePrinciple](SOLID/ocp.go)
+- [LiskovSubstitutionPrinciple](SOLID/lsp.go)
+- [InterfaceSegregationPrinciple](SOLID/isp.go)
+- [DependencyInversionPrinciple](SOLID/dip.go)

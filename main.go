@@ -10,7 +10,7 @@ import (
 
 func main() {
 	fmt.Println("Patterns")
-	solid.Srp()
+	solid.SOLID()
 	factory.Factory()
 	creational.BuildCreational()
 	structural.Structural()

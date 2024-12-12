@@ -21,7 +21,7 @@ func (j *Journal) Save(record string) {
 	fmt.Println("Save: ", record)
 }
 
-func Srp() {
+func srp() {
 	j := &Journal{}
 	j.Add("new data")
 }
